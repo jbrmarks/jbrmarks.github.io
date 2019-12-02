@@ -507,7 +507,7 @@ function updateSlider(timelineSlider){
 
 //Function: Load all the data using AJAX//
 function loadData(map, year){
-    $.ajax("data/NativeLand1880On.geojson", {
+    $.ajax("data/Nativeland1880On.geojson", {
         dataType: "json",
         success: function(response){
             // Sort the data in yearMap by year
@@ -520,7 +520,7 @@ function loadData(map, year){
             };
         }
     });
-    $.ajax("data/NativeLandPre1880.geojson", {
+    $.ajax("data/NativelandPre1880.geojson", {
         dataType: "json",
         success: function(response){
             // Sort the data in yearMap by year
